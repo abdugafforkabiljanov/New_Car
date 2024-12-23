@@ -5,8 +5,6 @@ public class Main {
         Drivable sportcar = new SportCar("Ferrari" , "sariq" , 2021 , 100);
         Drivable truck = new Truck("MAN" , "Qora" , 2020 , 130);
         Drivable electriccar = new ElectricCar("Tesla" , "Oq" , 2022 , 150);
-        // SportCar sportCar = new SportCar("Ferrari" , "sariq" , 2021 , 320);
-        // Truck Truck = new Truck("MAN" , "Qora" , 2020 , 130);
         sportcar.startEngine();
         sportcar.stopEngine();
         sportcar.accelerate(150);
