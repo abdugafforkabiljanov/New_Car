@@ -1,7 +1,7 @@
 package OOP;
 
 class Truck extends Car implements Drivable {
-
+// Truck classi Car classidan me'ros oladi va Drivable dan implementatsiya qiladi
     public Truck(String name, String color, int year, int speed) {
         super(name, color, year, speed);
     }
