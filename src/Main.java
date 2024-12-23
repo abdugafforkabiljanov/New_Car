@@ -1,5 +1,5 @@
 package OOP;
-
+// Bu asosiy Main classi hisoblanadi.
 public class Main {
     public static void main(String[] args) {
         Drivable sportcar = new SportCar("Ferrari" , "sariq" , 2021 , 100);
@@ -20,6 +20,7 @@ public class Main {
         sportcar.accelerate(170);
         sportcar.brake(80);
         sportcar.getMaxSpeed(180);
+        
 
     }
 }
